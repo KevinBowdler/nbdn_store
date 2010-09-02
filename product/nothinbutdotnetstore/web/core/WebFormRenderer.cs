@@ -1,9 +1,11 @@
 using System;
 using System.Web;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.web.core.stubs;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [FactoryPattern]
     public class WebFormRenderer : Renderer
     {
         ViewBroker view_broker;

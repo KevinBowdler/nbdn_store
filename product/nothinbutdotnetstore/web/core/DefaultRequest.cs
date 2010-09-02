@@ -1,8 +1,10 @@
 using System.Collections.Specialized;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.infrastructure;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [StratagyPattern]
     public class DefaultRequest : Request
     {
         MappingGateway mapping_gateway;

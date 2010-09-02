@@ -5,7 +5,6 @@ using nothinbutdotnetstore.model;
 
 namespace nothinbutdotnetstore.tasks
 {
-    [AdaptorPattern]
     public interface CatalogBrowsingTasks
     {
         //IEnumerable<T> GetAll<T>();

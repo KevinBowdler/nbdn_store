@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.model;
 
 namespace nothinbutdotnetstore.tasks.stubs
 {
+    [AdaptorPattern]
     public class StubCatalogBrowsingTasks : CatalogBrowsingTasks
     {
         public IEnumerable<Department> get_all_departments()
