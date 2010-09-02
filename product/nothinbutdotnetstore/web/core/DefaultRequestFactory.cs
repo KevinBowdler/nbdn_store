@@ -1,8 +1,10 @@
 ﻿using System.Web;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.infrastructure;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [FactoryPattern]
     public class DefaultRequestFactory : RequestFactory
     {
         MappingGateway mapping_gateway;

@@ -1,5 +1,8 @@
+using nothinbutdotnetstore.catagorisations;
+
 namespace nothinbutdotnetstore.web.core
 {
+    [CommandPattern]
     public class DefaultRequestCommand : RequestCommand
     {
         RequestCriteria criteria;

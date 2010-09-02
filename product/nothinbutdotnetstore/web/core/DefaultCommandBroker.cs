@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
+using nothinbutdotnetstore.catagorisations;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [RegistryPattern]
     public class DefaultCommandBroker : CommandBroker
     {
         IEnumerable<RequestCommand> all_commands;

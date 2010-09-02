@@ -1,7 +1,9 @@
 using System;
+using nothinbutdotnetstore.catagorisations;
 
 namespace nothinbutdotnetstore.infrastructure.containers.basic
 {
+    [ContainerPattern]
     public class DefaultContainer : Container
     {
         ResolverRegistry resolver_registry;

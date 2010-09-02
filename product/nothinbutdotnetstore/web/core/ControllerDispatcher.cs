@@ -1,8 +1,10 @@
 using System.Web;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.infrastructure.containers;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [FactoryPattern]
     public class ControllerDispatcher : IHttpHandler
     {
         RequestFactory request_factory;

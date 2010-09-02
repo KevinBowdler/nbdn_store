@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.model;
 
 namespace nothinbutdotnetstore.tasks
 {
+    [AdaptorPattern]
     public interface CatalogBrowsingTasks
     {
         //IEnumerable<T> GetAll<T>();

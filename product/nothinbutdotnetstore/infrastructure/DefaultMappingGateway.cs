@@ -1,5 +1,8 @@
+using nothinbutdotnetstore.catagorisations;
+
 namespace nothinbutdotnetstore.infrastructure
 {
+    [GatewayPattern]
     public class DefaultMappingGateway : MappingGateway
     {
         MapperRegistry mapper_registry;

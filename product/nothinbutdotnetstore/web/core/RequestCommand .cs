@@ -1,6 +1,9 @@
+using nothinbutdotnetstore.catagorisations;
+
 namespace nothinbutdotnetstore.web.core
 {
-    public interface RequestCommand  : ApplicationCommand
+    [CommandPattern]
+    public interface RequestCommand : ApplicationCommand
     {
         bool can_handle(Request request);
     }

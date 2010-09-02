@@ -61,6 +61,16 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="catagorisations\CommandPattern.cs" />
+    <Compile Include="catagorisations\AdaptorPattern.cs" />
+    <Compile Include="catagorisations\ConcreteImplementation.cs" />
+    <Compile Include="catagorisations\FactoryPattern.cs" />
+    <Compile Include="catagorisations\ContainerPattern.cs" />
+    <Compile Include="catagorisations\FactoryMethodPattern.cs" />
+    <Compile Include="catagorisations\GatewayPattern.cs" />
+    <Compile Include="catagorisations\RegistryPattern.cs" />
+    <Compile Include="catagorisations\StartUpPattern.cs" />
+    <Compile Include="catagorisations\StratagyPattern.cs" />
     <Compile Include="infrastructure\containers\basic\DefaultContainer.cs" />
     <Compile Include="infrastructure\containers\basic\DependencyCreationException.cs" />
     <Compile Include="infrastructure\containers\basic\DependencyResolver.cs" />

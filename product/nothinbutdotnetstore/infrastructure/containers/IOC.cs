@@ -1,7 +1,9 @@
 using System;
+using nothinbutdotnetstore.catagorisations;
 
 namespace nothinbutdotnetstore.infrastructure.containers
 {
+    [AdaptorPattern]
     public class IOC
     {
         public static ContainerResolver container_resolver = delegate

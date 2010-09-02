@@ -1,7 +1,9 @@
 using System;
+using nothinbutdotnetstore.catagorisations;
 
 namespace nothinbutdotnetstore.web.core
 {
+    [CommandPattern]
     public class MissingRequestCommand : RequestCommand
     {
         public void process(Request request)

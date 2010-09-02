@@ -1,8 +1,10 @@
+using nothinbutdotnetstore.catagorisations;
 using nothinbutdotnetstore.tasks;
 using nothinbutdotnetstore.web.core;
 
 namespace nothinbutdotnetstore.web.application.catalogbrowsing
 {
+    [CommandPattern]
     public class ViewMainDepartments : ApplicationCommand
     {
         CatalogBrowsingTasks catalog_browsing_tasks;

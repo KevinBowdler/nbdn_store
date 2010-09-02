@@ -1,5 +1,8 @@
+using nothinbutdotnetstore.catagorisations;
+
 namespace nothinbutdotnetstore.web.core
 {
+    [FactoryPattern]
     public class DefaultFrontController : FrontController
     {
         CommandBroker command_broker;

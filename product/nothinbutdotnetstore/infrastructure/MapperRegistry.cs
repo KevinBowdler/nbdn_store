@@ -5,3 +5,5 @@ namespace nothinbutdotnetstore.infrastructure
         Mapper<Input,Output> get_mapper_to_map<Input, Output>();
     }
 }
+
+
